@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Anniversary Surprise!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 100px;
+      font-size: 24px;
+      background-color: #ffe6e6;
+      /* Light pink */
+    }
+
+    /* Style the header with a romantic font and color */
+    #header {
+      margin-bottom: 50px;
+      color: #ff6b6b;
+      /* Red */
+      /* font-family: 'Pacifico', cursive; */
+      /* Use a romantic font (Google Font: Pacifico) */
+      text-shadow: 1px 1px #ffffff;
+      /* Add a subtle text shadow for effect */
+    }
+
+    /* Style the loving feelings section */
+    .loving-feelings {
+      padding: 20px;
+      background-color: #ffcccc;
+      /* Light coral */
+      border-radius: 10px;
+      /* Add rounded corners */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      /* Add a soft shadow */
+      line-height: 1.6;
+      /* Increase line height for better readability */
+      position: relative;
+      /* Add this line to position hearts relative to the loving-feelings section */
+    }
+
+    /* Add floating hearts for a romantic effect */
+    .heart {
+      position: absolute;
+      font-size: 20px;
+      color: #ff6b6b;
+      /* Red */
+      animation: float 3s linear infinite;
+      pointer-events: none;
+    }
+
+    @keyframes float {
+      0% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+
+      100% {
+        transform: translateY(-100px);
+        opacity: 0;
+      }
+    }
+
+    /* Style the counter section */
+    #counter {
+      font-size: 28px;
+      color: #ff6b6b;
+      /* Red */
+      font-weight: bold;
+      margin-top: 30px;
+    }
+
+    /* Style the emojis */
+    #emoji-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 9999;
+    }
+
+    .emoji {
+      position: absolute;
+      font-size: 24px;
+      animation: fall 5s linear infinite;
+    }
+
+    @keyframes fall {
+      0% {
+        transform: translateY(-100%);
+      }
+
+      100% {
+        transform: translateY(100vh);
+      }
+    }
+
+    /* Style the audio player */
+    audio {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+    }
+
+    .love-feelings {
+      /* Use the same style as the loving-feelings div */
+      padding: 20px;
+      background-color: #ffcccc;
+      /* Light coral */
+      border-radius: 10px;
+      /* Add rounded corners */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      /* Add a soft shadow */
+      line-height: 1.6;
+      /* Increase line height for better readability */
+      position: relative;
+      /* Add this line to position hearts relative to the love-feelings div */
+    }
+
+    .love-feelings img {
+      /* Add some spacing between images */
+      margin: 5px;
+      max-width: 100%;
+    }
+
+    /* Add floating hearts to the love-feelings div */
+    .love-feelings .heart {
+      position: absolute;
+      font-size: 20px;
+      color: #ff6b6b;
+      /* Red */
+      animation: float 3s linear infinite;
+      pointer-events: none;
+    }
+
+    img {
+      height: 500px;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div id="emoji-container"></div>
+
+  <div id="header">
+    <h1>3 Month Anniversary Sara!</h1>
+    <div class="loving-feelings">
+      <p>Under the tender glow of three moons' light,
+        Nirupama, your love, like stars, shines bright.
+        A symphony of whispers in the quiet night,
+        Each moment with you, pure, cherished delight.</p>
+    <p>Nishithini, your laughter, a celestial song,
+    In its melody, my heart finds where it belongs.
+    Words unsaid, drifting on the breeze,
+    Painting my world with hues that tease.</p>
+    
+    <p>Shumedha, your presence, a blossom so rare,
+    In your warmth, I find solace beyond compare.
+    On this path of love, where our story unfolds,
+    Each page, a tale of care and love untold.</p>
+    
+    <p>As we mark 3 months, a milestone so grand,
+    Our love, a treasure, forever in hand.
+    In the fabric of us, where emotions reside,
+    A journey of beauty, where love and joy abide.</p>
+
+      <p>Sara, my heart's delight,
+        Our love story continues, bathed in soft moonlight.... 💫💕</p></br>
+
+
+
+      <p>Hello Sara, welcome to another month... You don't know how much happy I am to be with you.. I wanna be with you forever. I wish i could hug you right now. I really wanna marry you. After everything you have done for me, i just can't but love you. I am obsessed with you and I am devoted to you. I wanna be with you forever. Please be my heart (cause you're gonna be with me till my death). And lastly, The moon is beautiful, isn't it?</p></br>
+
+      <h3>তিনটি মাস, জীবনের সুরের মেলা...</h3></br>
+      <p>তোমার চোখে খুঁজে পাই নক্ষত্রের কাব্য,
+        হৃদয়ের সুরে বাজে তোমার মৃদু হাসি।
+        নীল আকাশে তুমি আমার মুক্ত পাখি,
+        তোমার সাথে সুখের অঙ্গনে বেঁধেছি বাসা। </p>
+css
+Copy code
+    <p>নিরুপমা, তোমার ছোঁয়ায় জোনাকির আলোকমালা,
+    প্রতিটি মুহূর্তে রঙিন হয়ে ওঠে আমার জগৎ।
+    তোমার কণ্ঠে মিশে থাকে নদীর মধুর সুর,
+    তোমার সঙ্গেই যেন কাটে আমার প্রতিটি ক্ষণ।</p>
+    
+    <p>সারা, তুমি আমার হৃদয়ের নিঃশব্দ ভাষা,
+    তোমার অস্তিত্বে খুঁজে পাই জীবনের আশ্রয়।
+    নিশিথিনি, তোমার কোমলতার আলো,
+    তোমার হাসিতে মিশে থাকে প্রজাপতির চুম্বন।</p>
+    
+    <p>সুমেধা, তোমার সাথে কাটে আমার প্রতিটি প্রহর,
+    তুমি আছো আমার পাশে, প্রতিটি দিন যেন উৎসব।
+    তোমার সঙ্গে কাটুক আরো হাজার বসন্ত,
+    প্রিয়তমা, তুমিই আমার পৃথিবীর সবথেকে মধুর গল্প।</p>
+
+    </div>
+  </div>
+
+
+  <div class="love-feelings">
+    <p>Some of the gifts you gave me through our 2nd month's journey-</p></br>
+
+    
+    <p>The times we spent together-</p>
+    <img src="1.png" id="img4"><br>
+    <img src="2.png" id="img5"><br>
+    <img src="3.png" id="img6"><br>
+    <img src="4.png" id="img7" style="height: 300px; width: 600px;"><br>
+    <img src="5.png" id="img8"></br>
+    <p>Some reasons for me to love sara the most:</p>
+    <img src="Screenshot_20240515-070536.jpg" id="img9"><br>
+    <img src="Screenshot_20240517-030512.jpg" id="img10"><br>
+    <img src="Screenshot_20240520-023928.jpg" id="img11"><br>
+    <img src="Screenshot_20240524-022835.jpg" id="img12"><br>
+    <img src="Screenshot_20240524-022840.jpg" id="img13"></br>
+    <img src="Screenshot_20240524-023224.png" id="img14"><br>
+    <img src="Screenshot_20240527-015244.jpg" id="img15"><br>
+    <img src="Screenshot_20240531-032156.jpg" id="img16"><br>
+    
+   
+    <p>Welp, thanks for visiting. There are some more things down below. Make sure to check everything. And
+      yeah overall, Happy 2 months anniversary!
+      Love you.</p>
+  </div>
+
+  <div id="counter"></div>
+
+
+
+  <script src="script.js"></script>
+
+  <p>I've sung some songs for my Sara. Enjoy listening!</p>
+    <audio controls>
+    <source src="chiro_odhora_mp3.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    <a href="chiro_odhora_mp3.mp3" download>Download</a>
+  </audio>
+  <audio controls>
+    <source src="tomar_jonno.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    <a href="tomar_jonno.mp3" download>Download</a>
+  </audio>
+  <audio>
+  <source src="keno_lage_shunno_mp3.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  <a href="keno_lage_shunno_mp3.mp3" download>Download</a>
+</audio>
+<audio controls>
+  <source src="canvas_mp3.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  <a href="canvas_mp3.mp3" download>Download</a>
+</audio>
+
+
+<h2>Thanks for the 2 months worth of chance, Sara. You'll always remain in my heart!</h2>
+</body>
+
+</html>
